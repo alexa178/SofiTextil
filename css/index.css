@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Bar</title>
-    <style>
-        body {
+body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: rgba(0, 0, 0, 0.8); /* Darker background */
-    background-image: url('background.jpg');
+    background-image: url('../images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -92,32 +85,3 @@
     color: black;
     background-color: transparent;
 }
-
-    </style>
-</head>
-<body>
-
-<div class="navbar">
-    <div class="logo">
-        <img src="sofitex-logo.png" alt="Logo" width="150px">
-    </div>
-    <button class="Navigation-Buttons" href="#home">Начало</button>
-    <button class="Navigation-Buttons" href="#contact">Помощ</button>
-    <button class="Navigation-Buttons" href="#about">Facebook</button>
-    <div class="right">
-        <button class="Navigation-Buttons" href="#login">Login</button>
-        <button class="Navigation-Buttons" href="#signup">Sign Up</button>
-    </div>
-</div>
-
-<div class="centered">
-    <h1>Sofitex</h1>
-    <h4>Добре дошли!</h4>
-    <button class="Start-Buttons">Продукти</button>
-    <button class="Start-Buttons">За нас</button>
-</div>
-
-<!-- Your page content goes here -->
-
-</body>
-</html>

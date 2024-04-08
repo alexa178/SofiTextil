@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background */
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5); /* Same background color and transparency as centered div */
+    overflow: hidden;
+    height: 65px; /* Adjust the height of the navbar */
+}
+
+.navbar .logo {
+    float: left;
+    padding: 5px;
+}
+
+.navbar button {
+    float: left;
+    height: 50px; /* Adjust the height of the buttons */
+    line-height: 50px; /* Center the text vertically */
+    width: auto;
+    color: #000;
+    text-align: center;
+    padding: 0 20px; /* Adjust the padding inside the buttons */
+    margin: 10px 5px; /* Adjust the margins between buttons */
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: transparent; /* Transparent background */
+    cursor: pointer;
+    font-size: 18px; /* Adjust the font size of the buttons */
+}
+
+.navbar button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar .right {
+    float: right;
+}
+
+.container {
+    width: 900px;
+    margin: 20px auto; /* Adjusted margin */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
+    margin-left: 5%;
+    clear: both;
+}
+
+h1,
+h2,
+p {
+    color: #0056b3; /* Blue color */
+}
+
+.container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
