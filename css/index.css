@@ -11,7 +11,8 @@ body {
 .navbar {
     background-color: rgba(255, 255, 255, 0.5); /* Same background color and transparency as centered div */
     overflow: hidden;
-    height: 65px; /* Adjust the height of the navbar */
+    border-bottom: 2px solid black;
+    height: 75px; /* Adjust the height of the navbar */
 }
 
 .navbar .logo {
@@ -36,8 +37,10 @@ body {
 }
 
 .navbar button:hover {
-    background-color: #ddd;
-    color: black;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid white;
+    color: white;
 }
 
 .navbar .right {
@@ -53,6 +56,7 @@ body {
     background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value for transparency */
     padding: 40px; /* Adjust the padding for the "centered" div */
     border-radius: 20px; /* Add border radius for rounded corners */
+    border: 3px solid black;
 }
 
 .centered h1 {
@@ -76,7 +80,9 @@ body {
 }
 
 .centered button:hover {
-    background-color: rgba(255, 255, 255, 0.3); /* Add transparency to the hover effect */
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.7); /* Add transparency to the hover effect */
+    border: 2px solid white;
     color: white;
 }
 
